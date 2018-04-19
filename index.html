@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>圣地攀岩</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta property="og:type" content="website">
+<meta property="og:title" content="圣地攀岩">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="圣地攀岩">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="圣地攀岩">
+  
+    <link rel="alternate" href="/atom.xml" title="圣地攀岩" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+
+  
+
+  
+  
+  
+
+</head>
+
+
+
+  <body>
+
+
+  
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
+
+      <!-- Support rolling -->  
+        
+        <section class="awSlider">
+          <div class="carousel slide carousel-fade " data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               
+                  
+                    <div class="item active">
+                  
+                    <img id="carousel-img0" src="/css/images/sample.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img0 = new Image();
+                      var imageTag0 = document.getElementById("carousel-img0");
+                      img0.src = imageTag0.src;
+                      img0.onload=function(){
+                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag0.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag0.style.height = document.body.clientHeight + "px";
+                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">İleri</span>
+            </a>
+          </div>
+        </section>
+        <script>
+          $('section.awSlider .carousel').carousel({
+              pause: '',
+              interval: 5000
+          });
+          var startImage = $('section.awSlider .item.active > img').attr('src');
+          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+              var bscn = $(this).find('.item.active > img').attr('src');
+              $('section.awSlider > img').attr('src', bscn);
+          });
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">圣地攀岩</a></h1>
+            <h3></h3>
+            <h5>SD CLIMB</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+        } else {
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
+        }
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">首页</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">动态</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">关于</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="post-teach"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/03/teach/">杭州一中学校长担心男生太文弱，斥巨资推阳刚体育课学攀岩</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/03/teach/" class="article-date">
+	  <time datetime="2018-03-31T14:10:35.000Z" itemprop="datePublished">2018-03</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>攀岩作为在欧美流行的一种运动，很多人在电视上、网络上看过。不过，下沙有一所中学斥巨资在学校里造起了专业级的攀岩墙，还请来专业教练，第一次开课就被学生疯抢。<br>校长的话亮了：现在男孩太文弱了，要给他们开阳刚课程补钙。</p>
+<p>学校造了攀岩墙一开课就被学生疯抢。<br>杭州经济开发区金沙湖地区的景苑中学，是去年9月刚刚投入使用的一所全新的学校，目前有432名在校初一学生。<br>因为是全新的校区，各种硬件设施完备。不过，今年学校体育馆里居然出现两堵专业级别的攀岩墙，还是让学生们震惊了。其中一面墙高达10米，另一面是较小的抱石墙，上面布满了彩色的岩点，墙下还有软软的垫子。这两面墙都能用于正式比赛，可以说非常高大上了。上周，学校的首个攀岩班开课。这门课一推出，20个名额就被学生在网上“秒杀”。昨天下午是20个学生的第二次攀岩课。虽然才第二次上课，他们已经是人手一双专门的攀岩鞋，爬在攀岩壁上也有些模样了。“手臂伸直，腰挺起来。”学校专门聘请的职业教练史鹏飞在一旁指导学生，他曾是职业攀岩选手，圈内都叫他“石头”。石头老师在上示范的时候跟猴子似的，看得学生非常羡慕。<br> “不要以为攀岩是很极限的运动，其实没有电视里看到的那么难。”石头告诉记者，“第一次给他们上课的时候，我就像教游泳一样，让他们自己先上墙爬，每个人都能用蛮力爬一段。然后再教他们技巧。”<br>简单的诀窍比如手臂一定要伸直，这样胳膊肌肉才不会太辛苦；腰部也要用力，把全身的重量分配到各个地方；手要交叉寻找岩点……“别看他们现在还笨手笨脚，坚持练下去，一年以后就能参加业余比赛了。”<br>在石头看来，攀岩对孩子不仅是锻炼身体的运动，还很锻炼脑子。“攀岩好的人，脑子都很聪明。因为他们在看到一面攀岩墙的时候，就要思考线路，从哪里着手，哪里落脚，身体会是什么姿态，都是攀登以前就想清楚的。”</p>
+<p>一项极限运动，为什么要引入初中呢？<br>校长江志明的回答很接地气：“因为现在男孩子都太文弱了，需要阳刚气的运动。女生也需要培养勇敢坚毅的品质，为学生发展‘补钙’。”为此，学校耗资30万建攀岩墙。<br>江校长这么说不无道理。记者发现，这个攀岩班的20个初一孩子，有一半戴着眼镜。男生大部分很瘦，爬起来没什么力气，也有个别比较胖的，爬了几个岩点就爬不动了。倒是这个班里的几名女孩，身手看上去比男生还灵活。“我以前是田径队的。”一个扎着马尾辫的女生做完一组练习后告诉记者，“我本来想学跆拳道，因为男生老来欺负女生。后来发现拓展课里有攀岩，马上就选了，爸妈都觉得非常酷。”<br>而那位因为力气不够差点从墙上掉下来的胖男孩腼腆地说：“我想减肥。”他嫌自己110斤的体重太胖了，“我以前试过跑步，但是平时运动还是有点少了，希望攀岩可以有效果。”<br>对于这一点，教练倒是很有信心。“很多成年人都是用攀岩来塑形的，效果比健身房跑步好。”石头说，“只要坚持，这孩子马上会瘦下去的。”<br>“攀岩课需要孩子们有力量、速度、技巧、智慧、毅力，可以说是男子汉课程。”江校长说，“除了石头教练，杭州市攀岩队主教练张天志老师也会定期来指导。今后，我们还要设立攀岩社团，吸收攀岩爱好者。我们的体育老师现在也在接受攀岩训练。”<br>据江校长介绍，景苑中学目前正在与杭州市航模中心合作，开展教体结合，成为杭州培养攀岩后备人才的基地。<br>本周末，3月31日、4月1日两天，学校还将承办杭州市首届攀岩锦标赛暨省运会选拔赛，将有来自全市120多名中小学生和成年攀岩爱好者前来参与，钱报记者将会在“浙江24小时”APP上进行直播哦。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-climbc"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2017/12/climbc/">济宁攀岩运动协会成立</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2017/12/climbc/" class="article-date">
+	  <time datetime="2017-12-16T13:11:53.000Z" itemprop="datePublished">2017-12</time>
+	</a>
+
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>中国山东网济宁12月16日讯(记者 郝亚松)</p>
+<p>攀岩运动集竞技、健身、观赏、挑战于一体，享有“岩壁芭蕾”的美誉，深受青少年的喜爱。今天上午，济宁市攀岩运动协会成立大会在香港大厦召开，这标志着济宁市攀岩运动发展的新起点，全市攀岩运动及相关运动的队伍建设迈出了实质性步伐。</p>
+<p>济宁市体育局副局长邵波与山东省攀岩运动协会秘书长王松林共同为济宁市攀岩运动协会揭牌。邵波指出，济宁市攀岩协会的成立既是全市体育事业发展的一件大事，也是全市广大攀岩爱好者的一件喜事。济宁市攀岩协会不仅是全市攀岩爱好者的“娘家”，也是市体育局、市体育总会联系全市广大攀岩及相关运动社会团体和爱好者的桥梁和纽带。</p>
+<p>新当选的济宁市攀岩运动协会会长魏延亮表示，协会成立后，将陆续扩大单位会员范围，逐步在济宁所辖县区成立区县级攀岩运动协会，指导区县建设攀岩场地并建立后备人才培养基地，同时发展体育装备、体育赛事策划、旅游等相关机构成为会员单位，使其成为攀岩运动推广与发展的坚实后盾。</p>
+<p>据了解，攀岩运动已列入2018年印尼雅加达亚运会和2020年日本东京奥运会的正式比赛项目，并在今年的天津全运会上作为群众性比赛项目列入其中，攀岩项目的推广与发展势在必行。济宁市攀岩运动协会的成立，为全市乃至全省攀岩爱好者提供了一个相互交流、加强合作的平台，将发挥凝聚各行各业攀岩爱好者的重要作用。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+
+
+</section>
+        
+      </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2018 圣地攀岩 All Rights Reserved.</p>
+	      
+	      
+  		   	<p id="copyRightCn">SD CLIMB 保留所有权利</p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+  <script src="/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            圣地攀岩
+          </div>
+          <div class="panel-body">
+            Copyright © 2018 SD CLIMB All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
